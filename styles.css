@@ -1,0 +1,55 @@
+table{
+    border:none;
+    border-radius: 15px;
+    border-collapse: collapse;
+    margin:auto;
+    margin-top:40px;
+    width: 3px;
+    box-shadow: 4px 5px black;
+}
+th,td{
+    padding:27px;
+}
+td>button{
+    border: none;
+    background-color: rgba(165, 161, 161, 0);
+    font-weight:bolder;
+}
+table,th,td{
+    background-color: rgba(165, 161, 161, 0.2);
+}
+#clear{
+    color:red;
+}
+#result{
+    padding-right:40px;
+    padding-bottom:25px;
+    margin-bottom:-50px;
+    background-color: rgba(165, 161, 161, 0.5);
+    border:none;
+    font-size: 20px;
+    font-weight:bold;
+}
+#equal{
+    border:none;
+    padding-right:60px;
+    padding-left:60px;
+    background-color: rgba(0, 0, 255,0.8);
+    color:white;
+}
+h1{
+    margin:auto;
+    width:22%;
+}
+p#description{
+    margin:auto;
+    width:19%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight :bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: -30px;
+}
+#multiply,#division,#subtract,#add{
+    color:blue;
+}
